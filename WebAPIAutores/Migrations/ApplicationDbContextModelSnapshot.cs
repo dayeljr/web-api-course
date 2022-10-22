@@ -37,6 +37,44 @@ namespace WebAPIAutores.Migrations
 
                     b.ToTable("Autores");
                 });
+
+            modelBuilder.Entity("WebAPIAutores.Entidades.Libro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("AutorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AutorId");
+
+                    b.ToTable("Libros");
+                });
+
+            modelBuilder.Entity("WebAPIAutores.Entidades.Libro", b =>
+                {
+                    b.HasOne("WebAPIAutores.Entidades.Autor", "Autor")
+                        .WithMany("Libros")
+                        .HasForeignKey("AutorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Autor");
+                });
+
+            modelBuilder.Entity("WebAPIAutores.Entidades.Autor", b =>
+                {
+                    b.Navigation("Libros");
+                });
 #pragma warning restore 612, 618
         }
     }
