@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "X1gI8MujnmeYWBzaY59hUDcFjFfL1z7zb0R8vYSDM6w=",
+  "Hash": "X1hAtxGa/CjC8usy+b8CshWDlRJ61q1m0g2Ciyx66X0=",
   "Source": "WebAPIAutores",
   "BasePath": "_content/WebAPIAutores",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIAutores\\wwwroot",
+      "Source": "WebAPIAutores",
+      "ContentRoot": "C:\\Users\\Junior Quispe\\Desktop\\Backend Courses\\web-api-course\\WebAPIAutores\\wwwroot\\",
+      "BasePath": "_content/WebAPIAutores",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Junior Quispe\\Desktop\\Backend Courses\\web-api-course\\WebAPIAutores\\wwwroot\\Archivo1.txt",
+      "SourceId": "WebAPIAutores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Junior Quispe\\Desktop\\Backend Courses\\web-api-course\\WebAPIAutores\\wwwroot\\",
+      "BasePath": "_content/WebAPIAutores",
+      "RelativePath": "Archivo1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo1.txt"
+    }
+  ]
 }

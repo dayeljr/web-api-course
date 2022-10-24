@@ -124,3 +124,5 @@ C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\obj\
 C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\obj\Debug\net6.0\WebAPIAutores.pdb
 C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\obj\Debug\net6.0\WebAPIAutores.genruntimeconfig.cache
 C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\obj\Debug\net6.0\ref\WebAPIAutores.dll
+C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Junior Quispe\Desktop\Backend Courses\web-api-course\WebAPIAutores\bin\Debug\net6.0\WebAPIAutores.staticwebassets.runtime.json

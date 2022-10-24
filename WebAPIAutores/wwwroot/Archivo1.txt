@@ -1,0 +1,14 @@
+Proceso inciado
+Proceso en ejecución: 24/10/2022 11:30:12
+Proceso en ejecución: 24/10/2022 11:30:17
+Proceso en ejecución: 24/10/2022 11:30:22
+Proceso en ejecución: 24/10/2022 11:30:27
+Proceso en ejecución: 24/10/2022 11:30:32
+Proceso en ejecución: 24/10/2022 11:30:37
+Proceso en ejecución: 24/10/2022 11:30:42
+Proceso en ejecución: 24/10/2022 11:30:47
+Proceso en ejecución: 24/10/2022 11:30:52
+Proceso en ejecución: 24/10/2022 11:30:57
+Proceso en ejecución: 24/10/2022 11:31:02
+Proceso en ejecución: 24/10/2022 11:31:07
+Proceso finalizado
